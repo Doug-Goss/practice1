@@ -19,6 +19,10 @@
 		91310BD418B1A94300B500B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91310BBC18B1A94300B500B4 /* UIKit.framework */; };
 		91310BDC18B1A94300B500B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91310BDA18B1A94300B500B4 /* InfoPlist.strings */; };
 		91310BDE18B1A94300B500B4 /* homework3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91310BDD18B1A94300B500B4 /* homework3Tests.m */; };
+		91310BE918B1A96D00B500B4 /* card.m in Sources */ = {isa = PBXBuildFile; fileRef = 91310BE818B1A96D00B500B4 /* card.m */; };
+		91310BEC18B1ADFD00B500B4 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 91310BEB18B1ADFD00B500B4 /* Deck.m */; };
+		91310BEF18B1B72B00B500B4 /* playingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 91310BEE18B1B72B00B500B4 /* playingCard.m */; };
+		91310BF218B1BD5D00B500B4 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 91310BF118B1BD5D00B500B4 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		91310BD918B1A94300B500B4 /* homework3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homework3Tests-Info.plist"; sourceTree = "<group>"; };
 		91310BDB18B1A94300B500B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91310BDD18B1A94300B500B4 /* homework3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homework3Tests.m; sourceTree = "<group>"; };
+		91310BE718B1A96D00B500B4 /* card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = card.h; sourceTree = "<group>"; };
+		91310BE818B1A96D00B500B4 /* card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = card.m; sourceTree = "<group>"; };
+		91310BEA18B1ADFD00B500B4 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		91310BEB18B1ADFD00B500B4 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		91310BED18B1B72B00B500B4 /* playingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playingCard.h; sourceTree = "<group>"; };
+		91310BEE18B1B72B00B500B4 /* playingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playingCard.m; sourceTree = "<group>"; };
+		91310BF018B1BD5D00B500B4 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		91310BF118B1BD5D00B500B4 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,14 @@
 		91310BAC18B1A94300B500B4 = {
 			isa = PBXGroup;
 			children = (
+				91310BE718B1A96D00B500B4 /* card.h */,
+				91310BE818B1A96D00B500B4 /* card.m */,
+				91310BEA18B1ADFD00B500B4 /* Deck.h */,
+				91310BED18B1B72B00B500B4 /* playingCard.h */,
+				91310BEE18B1B72B00B500B4 /* playingCard.m */,
+				91310BEB18B1ADFD00B500B4 /* Deck.m */,
+				91310BF018B1BD5D00B500B4 /* PlayingCardDeck.h */,
+				91310BF118B1BD5D00B500B4 /* PlayingCardDeck.m */,
 				91310BBE18B1A94300B500B4 /* homework3 */,
 				91310BD718B1A94300B500B4 /* homework3Tests */,
 				91310BB718B1A94300B500B4 /* Frameworks */,
@@ -240,7 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91310BEF18B1B72B00B500B4 /* playingCard.m in Sources */,
+				91310BF218B1BD5D00B500B4 /* PlayingCardDeck.m in Sources */,
+				91310BEC18B1ADFD00B500B4 /* Deck.m in Sources */,
 				91310BC518B1A94300B500B4 /* main.m in Sources */,
+				91310BE918B1A96D00B500B4 /* card.m in Sources */,
 				91310BC918B1A94300B500B4 /* Homepwner2AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +466,7 @@
 				91310BE318B1A94300B500B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91310BE418B1A94300B500B4 /* Build configuration list for PBXNativeTarget "homework3Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +475,7 @@
 				91310BE618B1A94300B500B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
